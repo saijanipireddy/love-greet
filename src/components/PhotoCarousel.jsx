@@ -178,7 +178,7 @@ export default function PhotoCarousel({ onNext }) {
         <motion.button
           onClick={onNext}
           className="btn-glow rounded-full border-2 border-gold text-gold-light font-medium cursor-pointer box-glow-gold"
-          style={{ padding: '12px 36px', fontSize: '15px', background: 'rgba(245,158,11,0.12)' }}
+          style={{ padding: '12px 36px', fontSize: '15px', background: 'rgba(245,158,11,0.12)', marginBottom: '20px' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.8 }}

@@ -458,6 +458,7 @@ export default function TimelineScreen({ onNext }) {
             padding: '13px 40px',
             fontSize: '15px',
             background: 'rgba(245, 158, 11, 0.12)',
+            marginBottom: '20px',
           }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
