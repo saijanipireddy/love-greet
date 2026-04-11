@@ -6,14 +6,14 @@ const photos = [
   { src: '/photos/2.jpg', caption: 'My favorite smile in the world' },
   { src: '/photos/3.jpg', caption: 'Every moment with you is magic' },
   { src: '/photos/4.jpg', caption: 'You make everything beautiful' },
-  { src: '/photos/5.jpg', caption: 'My heart, my home, my love' },
-  { src: '/photos/6.jpg', caption: 'Together is my favorite place to be' },
-  { src: '/photos/7.jpg', caption: 'You are the reason I believe in forever' },
-  { src: '/photos/8.jpg', caption: "Forever isn't long enough with you" },
-  { src: '/photos/9.jpg', caption: "With you, even silence feels like a conversation" },
-  { src: '/photos/10.jpg', caption: "You turned my ordinary life into a love story" },
-  { src: '/photos/11.jpg', caption: "Every day with you feels like a beautiful dream I never want to wake from" },
-  { src: '/photos/12.jpg', caption: "In every lifetime, I will still choose you" },
+  // { src: '/photos/5.jpg', caption: 'My heart, my home, my love' },
+  // { src: '/photos/6.jpg', caption: 'Together is my favorite place to be' },
+  // { src: '/photos/7.jpg', caption: 'You are the reason I believe in forever' },
+  // { src: '/photos/8.jpg', caption: "Forever isn't long enough with you" },
+  // { src: '/photos/9.jpg', caption: "With you, even silence feels like a conversation" },
+  // { src: '/photos/10.jpg', caption: "You turned my ordinary life into a love story" },
+  // { src: '/photos/11.jpg', caption: "Every day with you feels like a beautiful dream I never want to wake from" },
+  // { src: '/photos/12.jpg', caption: "In every lifetime, I will still choose you" },
 ]
 
 export default function PhotoCarousel({ onNext }) {
@@ -42,7 +42,7 @@ export default function PhotoCarousel({ onNext }) {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Our Memories
+        Every Frame Holds You
       </motion.h2>
 
       {/* Photo — takes up most of the screen */}
