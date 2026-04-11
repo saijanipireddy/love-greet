@@ -85,7 +85,7 @@ export default function WordsScreen({ onNext }) {
         <motion.button
           onClick={onNext}
           className="btn-glow rounded-full border-2 border-rose text-rose-light font-medium cursor-pointer box-glow"
-          style={{ marginTop: '56px', padding: '14px 40px', fontSize: '16px', background: 'rgba(225, 29, 72, 0.12)' }}
+          style={{ marginTop: '56px', padding: '14px 40px', fontSize: '16px', background: 'rgba(225, 29, 72, 0.12)',paddingBottom:'10px' }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
